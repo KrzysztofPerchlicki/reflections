@@ -28,3 +28,8 @@ and what would be harder?
 
 Through dropbox, facebook?? Sharing code and seeing changes is a lot easier with github.
 There is better communication and everything...
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+I want to have review of my work 
