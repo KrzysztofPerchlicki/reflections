@@ -16,3 +16,9 @@ You want to use forks instead of clone if you want to modify someone code but
 on your own repository instead of owner repository.
 Clone is just taking exact copy of your all repository
 Branch is part of clone it is just logical sequence of commits 
+
+What is the benefit of having a copy of the last known state
+of the remote stored locally?
+
+Remote version can have conflicts with our version so having local remote state since last pull
+let us fix conflicts and makes decisions
