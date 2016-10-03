@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help
+you see the bug that was introduced?
+
+Seeing only difference helps us find bugs cause of focusing 
+our attention only on changed parts. We don't need to see what is 
+the rest of code if that part wasn't changed our attention on it is unecessery.
+If we know that our previous version was correct and new version works uncorrect
+then the bug lies in changes. It makes finding bugs super fast. 
+
+How could having easy access to the entire history of a
+file make you a more efficient programmer in the long term?
+
+If you make some big mistake or remove some part of important code you can
+easy recover that part. It gives you also safety, view on way how you
+develop your program. You can easy return to every moment of your developing
+moment and write without worries. There are only pros of doing in that way.
+
+What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+It gives you control on commit content. You can be shure that
+that this content contains logical changes, not just
+partly ended functions, features. But it also requires from
+you some widsom about when you should make commit
+
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+In Git we works on projects. Projects is made from a lot of files.
+Changes in one file can affect on different file.
+That files are related so we want to commit changes in one commit
+In Google Docs all files are treated separatly cause there 
+is not any logical connection between files we can edit only
+one file in time. We can't save lot files at once like in git.
+
+How can you use the commands git log and git diff to view the history of files?
+git log gives us view on all commits (top - bottom | the newest - the oldest).
+We can see all commit messages, commit author...
+Then if we want to see specific changes between 2 files we use
+git diff <older> <newer>. We can see there which lines was added/ deleted
+
+How might using version control make you more confident to make changes
+that could break something?
+
+You can easily return to previous version when everything worked perfectly and find your mistakes. Then jump back to latest commit and just fix bug. You don't have to worry about it cause all mistakes can be localized and reverted based on previous commits.
