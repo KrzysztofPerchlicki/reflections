@@ -22,3 +22,7 @@ Branches help with logical separating and makes checkout easier (by branch name)
 It allowes you to have core version on master branch and some changes,
 experimental things on different branches.
 You don't need to in that way make mess with commits.
+
+How do the diagrams help you visualize the branch structure?
+
+You can see connection between commits and better understand structure.
