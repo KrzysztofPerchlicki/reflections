@@ -14,3 +14,11 @@ files as one and other as another one.
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can control what file you want to add to specific commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you work on some experimental version or want to add new functionality.
+Branches help with logical separating and makes checkout easier (by branch name).
+It allowes you to have core version on master branch and some changes,
+experimental things on different branches.
+You don't need to in that way make mess with commits.
