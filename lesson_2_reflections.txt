@@ -1,3 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Git environment is created without commits. (.git folder is created and master branch). You need it to make commits and have all git stuff. 
+Git environment is created without commits. (.git folder is created and master branch).
+You need it to make commits and have all git stuff. 
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+In stage area you specific what files of current working directory
+you want to move by commit on repository.
+It gaves you control on commits - you can commit chosen
+files as one and other as another one.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can control what file you want to add to specific commit
