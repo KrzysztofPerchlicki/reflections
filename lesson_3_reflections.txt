@@ -22,3 +22,9 @@ of the remote stored locally?
 
 Remote version can have conflicts with our version so having local remote state since last pull
 let us fix conflicts and makes decisions
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Through dropbox, facebook?? Sharing code and seeing changes is a lot easier with github.
+There is better communication and everything...
