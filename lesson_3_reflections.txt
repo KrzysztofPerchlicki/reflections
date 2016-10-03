@@ -8,3 +8,11 @@ Git automatically stay up-to-date with your remote repository?
 If you work on something and then  somebody add some changes on repository
 You don't want to pull cause it can make some conflicts with your actual code.
 Pulling when you want gives you more control and safety.
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+You want to use forks instead of clone if you want to modify someone code but
+on your own repository instead of owner repository.
+Clone is just taking exact copy of your all repository
+Branch is part of clone it is just logical sequence of commits 
